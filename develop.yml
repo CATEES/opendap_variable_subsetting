@@ -1,0 +1,11 @@
+name: opendap_variable_subsetting
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - basemap=1.0.8.dev0=np111py35_2
+  - jupyter=1.0.0=py35_3
+  - matplotlib=1.5.3=np111py35_2
+  - netcdf4=1.2.4=np111py35_2
