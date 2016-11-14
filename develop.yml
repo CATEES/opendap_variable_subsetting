@@ -1,6 +1,7 @@
 name: opendap_variable_subsetting
 
 channels:
+  - catees
   - conda-forge
   - defaults
 
@@ -9,3 +10,4 @@ dependencies:
   - jupyter=1.0.0=py35_3
   - matplotlib=1.5.3=np111py35_2
   - netcdf4=1.2.4=np111py35_2
+  - nsidc0530=0.0.1=py35_0
