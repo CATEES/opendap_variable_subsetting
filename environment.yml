@@ -6,8 +6,8 @@ channels:
   - defaults
 
 dependencies:
-  - basemap=1.0.8.dev0
-  - jupyter=1.0.0
-  - matplotlib=1.5.3
-  - netcdf4=1.2.4
-  - nsidc0530=0.0.1
+  - basemap
+  - jupyter
+  - matplotlib
+  - netcdf4
+  - nsidc0530
