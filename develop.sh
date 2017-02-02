@@ -1,8 +1,8 @@
 #!/bin/bash
 
 set -e
-env=binder
+env=opendap_variable_subsetting
 conda info --envs | grep -q "^$env" && conda env remove -q -y -n $env
-conda env create -f environment.yml
+conda env create -f environment.yml -n $env
 source activate $env
 jupyter notebook --notebook-dir=. --ip=0.0.0.0
