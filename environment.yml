@@ -7,7 +7,6 @@ channels:
 
 dependencies:
   - basemap
-  - jupyter
   - matplotlib
   - netcdf4
   - nsidc0530
