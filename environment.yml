@@ -11,3 +11,4 @@ dependencies:
   - matplotlib
   - netcdf4
   - nsidc0530
+  - python=3
